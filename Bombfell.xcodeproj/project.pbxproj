@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAFB4E1FB994D833141E948B /* Pods_Bombfell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0170744FA4BB5AB9F321CB /* Pods_Bombfell.framework */; };
+		D54F42E41E565CC40097BD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F42E31E565CC40097BD93 /* AppDelegate.swift */; };
+		D54F42E61E565CC40097BD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F42E51E565CC40097BD93 /* ViewController.swift */; };
+		D54F42E91E565CC40097BD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54F42E71E565CC40097BD93 /* Main.storyboard */; };
+		D54F42EC1E565CC40097BD93 /* Bombfell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D54F42EA1E565CC40097BD93 /* Bombfell.xcdatamodeld */; };
+		D54F42EE1E565CC40097BD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54F42ED1E565CC40097BD93 /* Assets.xcassets */; };
+		D54F42F11E565CC40097BD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54F42EF1E565CC40097BD93 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11858E88AA2D2D9A86598759 /* Pods-Bombfell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bombfell.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bombfell/Pods-Bombfell.release.xcconfig"; sourceTree = "<group>"; };
+		CD0170744FA4BB5AB9F321CB /* Pods_Bombfell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bombfell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54F42E01E565CC40097BD93 /* Bombfell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bombfell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54F42E31E565CC40097BD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D54F42E51E565CC40097BD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D54F42E81E565CC40097BD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D54F42EB1E565CC40097BD93 /* Bombfell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bombfell.xcdatamodel; sourceTree = "<group>"; };
+		D54F42ED1E565CC40097BD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D54F42F01E565CC40097BD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D54F42F21E565CC40097BD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28DE82A119E91F34F134E6E /* Pods-Bombfell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bombfell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bombfell/Pods-Bombfell.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54F42DD1E565CC40097BD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFB4E1FB994D833141E948B /* Pods_Bombfell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D4163C10B68B2637F5BE9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E28DE82A119E91F34F134E6E /* Pods-Bombfell.debug.xcconfig */,
+				11858E88AA2D2D9A86598759 /* Pods-Bombfell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B81DAC93006E36758C7A7ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0170744FA4BB5AB9F321CB /* Pods_Bombfell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D54F42D71E565CC40097BD93 = {
+			isa = PBXGroup;
+			children = (
+				D54F42E21E565CC40097BD93 /* Bombfell */,
+				D54F42E11E565CC40097BD93 /* Products */,
+				46D4163C10B68B2637F5BE9E /* Pods */,
+				B81DAC93006E36758C7A7ED7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D54F42E11E565CC40097BD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54F42E01E565CC40097BD93 /* Bombfell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54F42E21E565CC40097BD93 /* Bombfell */ = {
+			isa = PBXGroup;
+			children = (
+				D54F42E31E565CC40097BD93 /* AppDelegate.swift */,
+				D54F42E51E565CC40097BD93 /* ViewController.swift */,
+				D54F42E71E565CC40097BD93 /* Main.storyboard */,
+				D54F42ED1E565CC40097BD93 /* Assets.xcassets */,
+				D54F42EF1E565CC40097BD93 /* LaunchScreen.storyboard */,
+				D54F42F21E565CC40097BD93 /* Info.plist */,
+				D54F42EA1E565CC40097BD93 /* Bombfell.xcdatamodeld */,
+			);
+			path = Bombfell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54F42DF1E565CC40097BD93 /* Bombfell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54F42F51E565CC40097BD93 /* Build configuration list for PBXNativeTarget "Bombfell" */;
+			buildPhases = (
+				601217DC2492072A27F8025C /* [CP] Check Pods Manifest.lock */,
+				D54F42DC1E565CC40097BD93 /* Sources */,
+				D54F42DD1E565CC40097BD93 /* Frameworks */,
+				D54F42DE1E565CC40097BD93 /* Resources */,
+				7058BE6575B77B80AD804830 /* [CP] Embed Pods Frameworks */,
+				7626FC3CC73C3D3292735DC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bombfell;
+			productName = Bombfell;
+			productReference = D54F42E01E565CC40097BD93 /* Bombfell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54F42D81E565CC40097BD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luke Solomon";
+				TargetAttributes = {
+					D54F42DF1E565CC40097BD93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6TK8Q4KD6G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D54F42DB1E565CC40097BD93 /* Build configuration list for PBXProject "Bombfell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D54F42D71E565CC40097BD93;
+			productRefGroup = D54F42E11E565CC40097BD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54F42DF1E565CC40097BD93 /* Bombfell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54F42DE1E565CC40097BD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F42F11E565CC40097BD93 /* LaunchScreen.storyboard in Resources */,
+				D54F42EE1E565CC40097BD93 /* Assets.xcassets in Resources */,
+				D54F42E91E565CC40097BD93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		601217DC2492072A27F8025C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7058BE6575B77B80AD804830 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bombfell/Pods-Bombfell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7626FC3CC73C3D3292735DC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bombfell/Pods-Bombfell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54F42DC1E565CC40097BD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F42EC1E565CC40097BD93 /* Bombfell.xcdatamodeld in Sources */,
+				D54F42E61E565CC40097BD93 /* ViewController.swift in Sources */,
+				D54F42E41E565CC40097BD93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D54F42E71E565CC40097BD93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54F42E81E565CC40097BD93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D54F42EF1E565CC40097BD93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54F42F01E565CC40097BD93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D54F42F31E565CC40097BD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D54F42F41E565CC40097BD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54F42F61E565CC40097BD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28DE82A119E91F34F134E6E /* Pods-Bombfell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = Bombfell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solomon.Bombfell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D54F42F71E565CC40097BD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11858E88AA2D2D9A86598759 /* Pods-Bombfell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = Bombfell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solomon.Bombfell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54F42DB1E565CC40097BD93 /* Build configuration list for PBXProject "Bombfell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54F42F31E565CC40097BD93 /* Debug */,
+				D54F42F41E565CC40097BD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54F42F51E565CC40097BD93 /* Build configuration list for PBXNativeTarget "Bombfell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54F42F61E565CC40097BD93 /* Debug */,
+				D54F42F71E565CC40097BD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D54F42EA1E565CC40097BD93 /* Bombfell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D54F42EB1E565CC40097BD93 /* Bombfell.xcdatamodel */,
+			);
+			currentVersion = D54F42EB1E565CC40097BD93 /* Bombfell.xcdatamodel */;
+			path = Bombfell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D54F42D81E565CC40097BD93 /* Project object */;
+}
