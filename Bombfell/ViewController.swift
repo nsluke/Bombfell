@@ -17,10 +17,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        for i in 1...25 {
-//            fibonacciHandler(number: i)
-//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,13 +33,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return fibonacciNumberToAppend
         } else if number > 2 {
             fibonacciNumberToAppend = fibonacciNumberForLargerIntegers(number: number)
-            
-            if (number == 25) {
-                print(fibonacciNumberToAppend)
-                print(fibonacciArray[number - 2])
-                print(fibonacciArray[number - 3])
-            }
-            
             fibonacciArray.append(fibonacciNumberToAppend)
             return fibonacciNumberToAppend
         }
