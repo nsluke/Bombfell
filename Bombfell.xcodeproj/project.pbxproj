@@ -14,6 +14,7 @@
 		D54F42EC1E565CC40097BD93 /* Bombfell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D54F42EA1E565CC40097BD93 /* Bombfell.xcdatamodeld */; };
 		D54F42EE1E565CC40097BD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54F42ED1E565CC40097BD93 /* Assets.xcassets */; };
 		D54F42F11E565CC40097BD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54F42EF1E565CC40097BD93 /* LaunchScreen.storyboard */; };
+		D5AA66551E593D0900B33A6E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AA66541E593D0900B33A6E /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D54F42ED1E565CC40097BD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54F42F01E565CC40097BD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54F42F21E565CC40097BD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AA66541E593D0900B33A6E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		E28DE82A119E91F34F134E6E /* Pods-Bombfell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bombfell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bombfell/Pods-Bombfell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 			children = (
 				D54F42E31E565CC40097BD93 /* AppDelegate.swift */,
 				D54F42E51E565CC40097BD93 /* ViewController.swift */,
+				D5AA66541E593D0900B33A6E /* CustomTableViewCell.swift */,
 				D54F42E71E565CC40097BD93 /* Main.storyboard */,
 				D54F42ED1E565CC40097BD93 /* Assets.xcassets */,
 				D54F42EF1E565CC40097BD93 /* LaunchScreen.storyboard */,
@@ -217,6 +220,7 @@
 			files = (
 				D54F42EC1E565CC40097BD93 /* Bombfell.xcdatamodeld in Sources */,
 				D54F42E61E565CC40097BD93 /* ViewController.swift in Sources */,
+				D5AA66551E593D0900B33A6E /* CustomTableViewCell.swift in Sources */,
 				D54F42E41E565CC40097BD93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +387,7 @@
 				D54F42F71E565CC40097BD93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
