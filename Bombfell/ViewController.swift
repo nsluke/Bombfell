@@ -12,14 +12,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableView: UITableView!
     
+    private var cellsToDisplay = 100
     var fibonacciArray:[Int] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for i in 1...25 {
-            fibonacciHandler(number: i)
-        }
+//        for i in 1...25 {
+//            fibonacciHandler(number: i)
+//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,12 +35,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             fibonacciNumberToAppend = 1
             fibonacciArray.append(fibonacciNumberToAppend)
             return fibonacciNumberToAppend
-        } else if number <= 17 {
-            fibonacciNumberToAppend = fibonacciNumberForInteger(number: number)
-            fibonacciArray.append(fibonacciNumberToAppend)
-            return fibonacciNumberToAppend
-        } else if number > 17 {
+        } else if number > 2 {
             fibonacciNumberToAppend = fibonacciNumberForLargerIntegers(number: number)
+            
+            if (number == 25) {
+                print(fibonacciNumberToAppend)
+                print(fibonacciArray[number - 2])
+                print(fibonacciArray[number - 3])
+            }
+            
             fibonacciArray.append(fibonacciNumberToAppend)
             return fibonacciNumberToAppend
         }
@@ -47,7 +51,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func fibonacciNumberForLargerIntegers(number:Int) -> Int {
-        return (fibonacciArray[number - 2] + fibonacciArray[number - 3])
+        let firstNumber:Int = fibonacciArray[number - 1]
+        let secondNumber:Int = fibonacciArray[number - 2]
+        let returnValue:Int = firstNumber + secondNumber
+        
+        return (returnValue)
     }
     
     func fibonacciNumberForInteger(number:Int) -> Int {
@@ -59,16 +67,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return fibonacciArray.count
+        return cellsToDisplay
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cell:CustomTableViewCell = (self.tableView.dequeueReusableCell(withIdentifier: "cell") as? CustomTableViewCell)!
-        
-        if (indexPath.row >= fibonacciArray.count) {
-            fibonacciHandler(number: indexPath.row + 1)
-            tableView.reloadData()
-        }
 
         cell.label?.text = "\(fibonacciHandler(number: indexPath.row))"
         cell.backgroundView?.backgroundColor = UIColor.black
@@ -76,8 +79,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        tableView.reloadData()
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        // Emulate pagination since iOS table views don't have an option for first class infinite scrolling
+        if indexPath.row == cellsToDisplay - 2 {
+            cellsToDisplay += 100
+            tableView.reloadData()
+        }
     }
-    
+
 }
